@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Defeat Megatron</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Alfa+Slab+One" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="logo" id="logo"><img src="assets/images/transformers-logo.jpg"></div>
+            <h1>Defeat Megatron!</h1>
+        </div>
+
+        <div class="fluid-container">
+            <div class="row" id="howtoplay-div">
+                <div class="col-sm-9">
+                    <h2 id="howtoplay-title">How to Play:</h2>
+                    <p id="howtoplay">
+                        <br>
+                        Megatron will give a random number at the start of each game.
+                        <br>
+                        <br>
+                        There are four Transformers below. By clicking on one of the Transformers, you will add a
+                        specific
+                        amount of points to your total score.
+                        <br>
+                        <br>
+                        You can defeat Megatron, and win, by matching your total score to Megatron's random number. But
+                        you lose the game if your total score goes above Megatron's random number.
+                        <br>
+                        <br>
+                        The value of each Transformer is hidden from you until you click on it.
+                        <br>
+                        <br>
+                        Each time the game starts, the game will change the value of each Transformer and Megatron will
+                        change his random number.
+                        <br>
+                        <br>
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="assets/images/megatron.jpg" id="megatron">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="container-fluid">
+                <div class="row" id="images-row1">
+
+                    <!-- Requires 4 objects as buttons -->
+
+                    <button type="button" class="btn btn-primary transformers-btn">
+                        <img src="assets/images/optimus-prime.jpg" id="optimus">
+                    </button>
+                    <button type="button" class="btn btn-warning transformers-btn">
+                        <img src="assets/images/bumblebee.jpg" id="bumblebee">
+                    </button>
+                    <button type="button" class="btn btn-danger transformers-btn">
+                        <img src="assets/images/ironhide.png" id="ironhide">
+                    </button>
+                    <button type="button" class="btn btn-dark transformers-btn">
+                        <img src="assets/images/jazz.jpg" id="jazz">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="numbersDiv">
+            <div class="row">
+                <div class="col-sm-6">
+                    Megatron's number to match:
+                    <span id="number-match"></span>
+                </div>
+                <div class="col-sm-6">
+                    Your number:
+                    <span id="number-user"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="numbersDiv">
+            <div class="row">
+                <div class="col-sm-6">
+                    Wins:
+                    <span id="number-wins"></span>
+                </div>
+                <div class="col-sm-6">
+                    Losses:
+                    <span id="number-losses"></span>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

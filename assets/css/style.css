@@ -1,0 +1,59 @@
+/* General Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/background1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    background: transparent;
+    margin-bottom: 0px;
+    color: black;
+    font-family: 'Alfa Slab One', cursive;
+    padding-bottom: 0px;
+}
+
+#logo {
+    text-align: center;
+}
+
+#howtoplay-div {
+    background: white;
+    font-family: 'ABeeZee', sans-serif;
+    border-radius: 15px;
+}
+
+#megatron {
+    border-radius: 15px;
+}
+
+.transformers-btn {
+   margin-right: 30px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.transformers-btn:hover {
+    cursor: pointer;
+}
+
+#numbersDiv {
+    background: linear-gradient(#639cb4, #e7e3e3, #aa1c20);
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 25px;
+    border-radius: 15px;
+    color: black;
+    margin-bottom: 30px;
+    line-height: 45px;
+}
+
+#howtoplay-title {
+    font-weight: bold;
+}
